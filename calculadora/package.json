@@ -1,0 +1,21 @@
+{
+  "name": "calculator",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "A simple calculator",
+  "main": "index.js",
+  "keywords": [
+    "addition",
+    "subtraction",
+    "multiplication",
+    "division"
+  ],
+  "scripts": {
+    "start": "node --experimental-modules index"
+  },
+  "author": "JuanZea",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
