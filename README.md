@@ -1,3 +1,14 @@
-# Arquitectura De Software
+# Calculator
+A simple calculator
 
-Applicaciones de Arquitectura de software
+# Install
+Clone and run 
+```shell
+npm i
+```
+
+# Usage
+Start with:
+```shell
+npm run start
+```
