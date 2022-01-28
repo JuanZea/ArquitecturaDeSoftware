@@ -9,7 +9,7 @@ Implementation of a Simple Calculator with the next operations:
 * Divide
 * Module
 
-Including integration with Travis CI.
+Including integration with Travis CI, Sonarqube (SonarCloud).
 
 ### Folders Structure
 
