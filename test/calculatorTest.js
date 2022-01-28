@@ -29,5 +29,4 @@ describe('Calculator Tests', () => {
     it('Testing module', () => {
         expect(module(2, 9)).to.equal(2);
     })
-    
 })
