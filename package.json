@@ -12,6 +12,8 @@
   ],
   "scripts": {
     "test": "mocha",
+    "cover": "npm i -D coveralls",
+    "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls",
     "start": "node --experimental-modules index"
   },
   "author": "JuanZea",
@@ -21,6 +23,7 @@
   },
   "devDependencies": {
     "chai": "^4.3.6",
+    "coveralls": "^3.1.1",
     "mocha": "^9.2.0"
   }
 }
